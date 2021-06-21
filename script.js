@@ -3,7 +3,7 @@ function compute()
     var principle = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
-    var total = ((rate/100*years)*principle;
+    var total = (rate/100*years)*principle;
     total = Math.round((total + Number.EPSILON) * 100) / 100; //stolen from some guy on stackoverflow. . . god bless his/her soul
     
     
